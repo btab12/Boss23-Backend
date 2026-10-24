@@ -1,4 +1,5 @@
-import express, { Request, Response, NextFunction } from 'express';
+import express from 'express';
+import type { Request, Response, NextFunction } from 'express';
 import { Pool } from 'pg';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
